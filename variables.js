@@ -5,6 +5,7 @@
 
 /*TU RESPUESTA:
 
+Una variable es un espacio en memoria , sirve para almacenar datos
 
 */
 
@@ -13,6 +14,7 @@
 
 /*TU RESPUESTA:
 
+icializar una variable es indicar desde que punto empieza a funcionar y declarar una varialble es hacerle una mencion para su uso
 
 */
 
@@ -21,6 +23,7 @@
 
 /*TU RESPUESTA:
 
+se diferencia en que una aumenta el valor del numero y la otra agrega otro valor 
 
 */
 
@@ -29,6 +32,7 @@
 
 /*TU RESPUESTA:
 
+ 
 
 */
 
@@ -36,6 +40,7 @@
 
 /*TU RESPUESTA:
 
+la memoria ram es un hardware que sirve para almacenar datos con un espacio finito 
 
 */
 
@@ -44,6 +49,7 @@
 
 /*TU RESPUESTA:
 
++
 
 */
 
@@ -53,6 +59,7 @@
 /*TU RESPUESTA:
 
 
+
 */
 
 
@@ -60,20 +67,32 @@
 
 // 1. Escribe el tipo de dato al que representa cada elemento de esta lista //
 
-//Nombre ---------------------------------------->
-//Nombre de usuario ----------------------------->
-//Edad ------------------------------------------>
-//Correo electrónico ---------------------------->
-//Número de celular ----------------------------->
-//Tiene mascotas -------------------------------->
-//Mascotas (perro, gato, gallina, girafa) ------->
-//Tiene carro ----------------------------------->
-//Dinero Ahorrado -------------------------------> 
-//Mayor de edad --------------------------------->
-//Dos prestamos --------------------------------->
+//Nombre ----------------------------------------> String
+//Nombre de usuario -----------------------------> String
+//Edad ------------------------------------------> Numerico
+//Correo electrónico ----------------------------> String
+//Número de celular -----------------------------> Numerico
+//Tiene mascotas --------------------------------> Booleano
+//Mascotas (perro, gato, gallina, girafa) -------> Array
+//Tiene carro -----------------------------------> Booleano
+//Dinero Ahorrado -------------------------------> Numerico
+//Mayor de edad ---------------------------------> Booleano
+//Dos prestamos ---------------------------------> Booleano
 
 
 // 2. Traduce a código JavaScript el ejemplo anterior //
+
+"Arjuna";
+"Arjunafit";
+14;
+"tubuares91@gmail.com";
+12345678910;
+true;
+mascotas = ["perro, ", "gato, ", "gallina, ", "girafa"];
+true;
+12000;
+true;
+false;
 
 
 
@@ -82,4 +101,6 @@
 //Dinero real (dinero ahorrado menos deudas)
 //Cuantas mascotas tiene y mostrar los nombres
 
+let nombreCompleto = "Arjuna Diazgranados";
+let 
 
