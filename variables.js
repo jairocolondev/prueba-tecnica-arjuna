@@ -54,15 +54,6 @@ la memoria ram es un hardware que sirve para almacenar datos con un espacio fini
 */
 
 
-// 7. ¿Cuál operador me permite sumar o concatenar? //
-
-/*TU RESPUESTA:
-
-
-
-*/
-
-
 // ------------------------------ PARTE # 2 ----------------------------------- //
 
 // 1. Escribe el tipo de dato al que representa cada elemento de esta lista //
