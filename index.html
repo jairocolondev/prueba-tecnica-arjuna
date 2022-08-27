@@ -12,9 +12,12 @@
   <body>
       <header>
         <nav>
+          <div class="logoImagen" >
+            <img src="/assets/logo.png" >
+          </div>
           <ul class="lista">
-            <li><a class="listNav" href="#">Inicio</a></li>
-            <a href="index.html"> </a>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
             <li><a href="#">Tipos razas</a>
               <ul class="listarazas">
                 <li><a href="#peligrosas">Peligrosas</a></li>
@@ -23,7 +26,9 @@
                 <li><a href="#medianas">Medianas</a></li>
                 <li><a href="#pequeñas">Pequeñas</a></li>
               </ul></li>
+              <li><a href="#">Contacto</a></li></a>
           </ul>
+          
       </header>
       <section id="home" >
         <h1 class="titleHome">Aqui encontraras una gran variedad de Razas de perros</h1>
@@ -96,4 +101,17 @@ Aunque cualquier mascota tiene una incidencia positiva en la vida de una persona
     Si eres amante de los perros, no te puedes perder las características, curiosidades y cuidados de todas las razas de perros. Desde perros pequeños hasta perros medianos o perros grandes. 
     Descubre cuál es la raza de perro más inteligente, la historia de cada tipo de perro, las curiosidades y necesidades... todo lo que debes saber para entender mejor a tu perro y darle lo que necesita.
 </section> 
+
+<section id="contacto" >
+  <h1>Contactanos</h1>
+  <form>
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" name="nombre" placeholder="Nombre completo">
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email" placeholder="ejemplo@email.com">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Danos tu mensaje"></textarea>
+        <input id="submit" name="submit" type="submit" value="Enviar">
+  </form>
+</section>
 </html>
