@@ -5,23 +5,25 @@ body {
  /* -----inicio nav------ */
 nav  {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     height: 70px;
     width: 100%; 
     background-color: greenyellow; 
 }
-.logoImagen {
-    width: 80px;
-    height: 80px;
-    padding: 10px;
+.logoImagen img{
+    width: 70px;
+    height: 70px;
+    justify-content: flex-start; 
+    align-items: center;   
+
 }
-.logoImagen:hover {
+.logoImagen img:hover {
     transform: scaleY(1.1);
     animation-duration:0.5s;
 }
 .lista {
     display: flex;
-    margin-right: 50px;
+    margin-right: 0px;
     padding: 0;
     align-items: center;
     list-style: none;
@@ -30,19 +32,16 @@ nav  {
 } 
 
 .lista > li > a{
-    display: block;
+    display: flex;
     padding: 10px;
     color: royalblue;
     text-decoration: none;
     font-family: 'DynaPuff', cursive;
 }
 .lista > li > a:hover{
-    color: aqua;
+    color: rgb(3, 3, 3);
 }
 
-.lista > li:hover{
-    color: aqua;
-}
 
 .listarazas {
     position: absolute;
@@ -66,7 +65,7 @@ nav  {
 }
 
 .listarazas li a:hover{
-    color: aqua;
+    color: rgb(0, 0, 0);
 }
  /* -----Final nav------ */
 
@@ -74,7 +73,7 @@ nav  {
 #home {
     padding: 10%;
     margin: 0;
-    display: flex;
+    display: block;
     background: url(/assets/perro-con-orejas.jpg);   
     background-size: cover;
     background-position: center;
@@ -91,7 +90,6 @@ nav  {
 .subtitleHome {
     width: 70%;
     font-family: 'DynaPuff', cursive;
-    text-align: flex-start;
     font-size: 15px;
     margin: auto;
     color: #f2f2f2;
@@ -101,7 +99,6 @@ nav  {
 #peligrosas {
     padding: 10%;
     margin: 0;
-    display: block;
     background-color: #e1e1e1;   
 }
 .titleHome {
@@ -227,3 +224,45 @@ nav  {
     margin: auto;
     color: #352424;
 } 
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+ 
+.principal {
+    display:block;
+    margin:0 auto;
+    width:510px;
+    color: #666666;
+    font-family:Arial;
+}
+ 
+form {
+    margin:0 auto;
+    width:400px;
+}
+ 
+input, textarea {
+    width:380px;
+    height:27px;
+    background:#666666;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color:#ffffff;
+}
+ 
+textarea {
+    height:150px;
+}
+ 
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
