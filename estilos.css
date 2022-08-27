@@ -1,1 +1,229 @@
-/*--- ACÁ VAS TENER TODOS LOS ESTILOS DE TU LANDING PAGE DE RAZAS DE PERROS ---*/
+body {
+    margin: 0;
+    padding: 0;
+}
+ /* -----inicio nav------ */
+nav  {
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    width: 100%; 
+    background-color: greenyellow; 
+}
+.logoImagen {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+.logoImagen:hover {
+    transform: scaleY(1.1);
+    animation-duration:0.5s;
+}
+.lista {
+    display: flex;
+    margin-right: 50px;
+    padding: 0;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+
+} 
+
+.lista > li > a{
+    display: block;
+    padding: 10px;
+    color: royalblue;
+    text-decoration: none;
+    font-family: 'DynaPuff', cursive;
+}
+.lista > li > a:hover{
+    color: aqua;
+}
+
+.lista > li:hover{
+    color: aqua;
+}
+
+.listarazas {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: greenyellow;
+}
+
+.lista > li:hover .listarazas{
+    display: block;
+}
+
+
+.listarazas li a{
+    display: block;
+    color: royalblue;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+    font-family: 'DynaPuff', cursive;
+}
+
+.listarazas li a:hover{
+    color: aqua;
+}
+ /* -----Final nav------ */
+
+ /* -----Inicio home------ */
+#home {
+    padding: 10%;
+    margin: 0;
+    display: flex;
+    background: url(/assets/perro-con-orejas.jpg);   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.titleHome {
+    width: 50%;
+    margin-right: 50%;
+    font-family: 'DynaPuff', cursive;
+    font-size: 38px;
+    text-align: flex-start;
+    color: #f2f2f2;
+}
+.subtitleHome {
+    width: 70%;
+    font-family: 'DynaPuff', cursive;
+    text-align: flex-start;
+    font-size: 15px;
+    margin: auto;
+    color: #f2f2f2;
+}
+
+/* ---- Inicio section peligrosas --- */
+#peligrosas {
+    padding: 10%;
+    margin: 0;
+    display: block;
+    background-color: #e1e1e1;   
+}
+.titleHome {
+    margin: auto;
+    font-family: 'DynaPuff', cursive;
+    font-size: 48px;
+    text-align: flex-start;
+    color: #f2f2f2;
+}
+.cards {
+    padding: 10%;
+    margin: 0;
+    display: block;
+      
+}
+
+
+/* ---- Inicio section tranquilos  --- */
+
+#tranquilos {
+    padding: 10%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: flex-start;
+    background-color: #ac5656;   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.titleTranquilos {
+    margin: 20px;
+    font-family: 'DynaPuff', cursive;
+    font-size: 28px;
+    text-align: center;
+    color: #f2f2f2;
+}
+.subtitleTranquilos {
+    width: 70%;
+    font-family: 'DynaPuff', cursive;
+    text-align: flex-start;
+    font-size: 15px;
+    margin: auto;
+    color: #f2f2f2;
+}
+
+ #grandes {
+    padding: 10%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: flex-start;
+    background-color: #33747c;   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.title{
+    margin: auto;
+    font-family: 'DynaPuff', cursive;
+    font-size: 48px;
+    text-align: flex-start;
+    color: #f2f2f2;
+}
+.subtitle {
+    width: 70%;
+    font-family: 'DynaPuff', cursive;
+    text-align: flex-start;
+    font-size: 15px;
+    margin: auto;
+    color: #f2f2f2;
+}
+
+#medianos {
+    padding: 10%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: flex-start;
+    background-color: #55a860;   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.title {
+    margin: auto;
+    font-family: 'DynaPuff', cursive;
+    font-size: 48px;
+    text-align: flex-start;
+    color: #f2f2f2;
+}
+.subtitle{
+    width: 70%;
+    font-family: 'DynaPuff', cursive;
+    text-align: flex-start;
+    font-size: 15px;
+    margin: auto;
+    color: #f2f2f2;
+}
+#pequeñas {
+    padding: 10%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: flex-start;
+    background-color: #a37bb6;   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.title {
+    margin: auto;
+    font-family: 'DynaPuff', cursive;
+    font-size: 48px;
+    text-align: flex-start;
+    color: #f2f2f2;
+}
+.subtitle {
+    width: 70%;
+    font-family: 'DynaPuff', cursive;
+    text-align: flex-start;
+    font-size: 15px;
+    margin: auto;
+    color: #352424;
+} 
