@@ -23,7 +23,7 @@ Acceder a cada propiedad y mostrar su valor
 
 ) */
 
-
+console.log("probando")
 
 
 
@@ -35,7 +35,7 @@ Acceder a cada propiedad y mostrar su valor
 //Recorrer el array e imprimir el elemento en la tercera posición
 //Eliminar un elemento a partir de la posición 2 del array,
 
-const lenguajes = ["JavaScript", "Python", "Go", "Java", "C++", "C+", "Kotlin"]
+// const lenguajes = ["JavaScript", "Python", "Go", "Java", "C++", "C+", "Kotlin"]
 
 
 
