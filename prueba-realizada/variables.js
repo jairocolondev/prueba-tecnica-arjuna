@@ -5,7 +5,7 @@
 
 /*TU RESPUESTA:
 
-Una variable es un espacio en memoria , sirve para almacenar datos
+Una variable es un espacio en memoria , sirve para almacenar datos ****BUENA*****
 
 */
 
@@ -14,7 +14,8 @@ Una variable es un espacio en memoria , sirve para almacenar datos
 
 /*TU RESPUESTA:
 
-icializar una variable es indicar desde que punto empieza a funcionar y declarar una varialble es hacerle una mencion para su uso
+Inicializar una variable es indicar desde que punto empieza a funcionar y   ****0.5*****
+declarar una variable es hacerle una mencion para su uso
 
 */
 
@@ -23,24 +24,16 @@ icializar una variable es indicar desde que punto empieza a funcionar y declarar
 
 /*TU RESPUESTA:
 
-se diferencia en que una aumenta el valor del numero y la otra agrega otro valor 
+se diferencia en que una aumenta el valor del numero y la otra agrega otro valor ****MALA*****
 
 */
 
-
-// 4. ¿Cuál es la diferencia entre sumar números y concatenar strings? //
-
-/*TU RESPUESTA:
-
- 
-
-*/
 
 // 5. ¿Qué es la memoria RAM y para que sirve? //
 
 /*TU RESPUESTA:
 
-la memoria ram es un hardware que sirve para almacenar datos con un espacio finito 
+la memoria ram es un hardware que sirve para almacenar datos con un espacio finito ****BUENA***** 
 
 */
 
@@ -49,29 +42,29 @@ la memoria ram es un hardware que sirve para almacenar datos con un espacio fini
 
 /*TU RESPUESTA:
 
-+
++ ****BUENA*****
 
 */
 
 
 // ------------------------------ PARTE # 2 ----------------------------------- //
 
-// 1. Escribe el tipo de dato al que representa cada elemento de esta lista //
+// 1. Escribe el tipo de dato al que representa cada elemento de esta lista ****BUENA*****
 
-//Nombre ----------------------------------------> String
-//Nombre de usuario -----------------------------> String
-//Edad ------------------------------------------> Numerico
-//Correo electrónico ----------------------------> String
-//Número de celular -----------------------------> Numerico
-//Tiene mascotas --------------------------------> Booleano
-//Mascotas (perro, gato, gallina, girafa) -------> Array
-//Tiene carro -----------------------------------> Booleano
-//Dinero Ahorrado -------------------------------> Numerico
-//Mayor de edad ---------------------------------> Booleano
-//Dos prestamos ---------------------------------> Booleano
+//Nombre ----------------------------------------> String -->OK
+//Nombre de usuario -----------------------------> String --> OK
+//Edad ------------------------------------------> Numero --> OK
+//Correo electrónico ----------------------------> String --> OK
+//Número de celular -----------------------------> Numero --> OK
+//Tiene mascotas --------------------------------> Booleano -> OK
+//Mascotas (perro, gato, gallina, girafa) -------> Array   --> OK
+//Tiene carro -----------------------------------> Booleano --> OK
+//Dinero Ahorrado -------------------------------> Numero  --> OK
+//Mayor de edad ---------------------------------> Booleano --> OK
+//Dos prestamos ---------------------------------> Booleano --> NOT
 
 
-// 2. Traduce a código JavaScript el ejemplo anterior //
+// 2. Traduce a código JavaScript el ejemplo anterior  ****MALA*****
 
 "Arjuna";
 "Arjunafit";
@@ -90,8 +83,7 @@ false;
 // 3. Calcula e imprime las siguientes variables a partir de las variables del ejemplo anterior: //
 //Nombre completo (nombre y apellido)
 //Dinero real (dinero ahorrado menos deudas)
-//Cuantas mascotas tiene y mostrar los nombres
+//Cuantas mascotas tiene y mostrar los nombres ****MALA*****
 
 let nombreCompleto = "Arjuna Diazgranados";
-let 
 

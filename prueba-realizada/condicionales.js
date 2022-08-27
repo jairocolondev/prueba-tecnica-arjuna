@@ -1,7 +1,7 @@
 // ------------------------ PARTE # 1 ---------------------------------- //
 // Responde las siguientes preguntas en la sección de comentarios:
 
-// 1. ¿Qué es un condicional? //
+// 1. ¿Qué es un condicional?  ****BUENA*****
 
 /*TU RESPUESTA:
 
@@ -9,7 +9,7 @@ una condicional es aquella que nos evalua si es verdadero o falso
 
 */
 
-// 2. ¿Qué tipos de condicionales conoces en JavaScript y cuáles son sus diferencias? //
+// 2. ¿Qué tipos de condicionales conoces en JavaScript y cuáles son sus diferencias? ****BUENA*****
 
 /*TU RESPUESTA:
 
@@ -23,7 +23,7 @@ else nos dice si no se cumple ninguna condicion
 
 
 
-// 3. ¿Puedo combinar funciones y condicionales? //
+// 3. ¿Puedo combinar funciones y condicionales?  ****BUENA*****
 
 /*TU RESPUESTA:
 
@@ -34,7 +34,7 @@ si
 
 // ------------------------ PARTE # 2 ---------------------------------- //
 
-// Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if:
+// Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if: ****BUENA*****
 const typeSubcription = "Basic";
 
 switch (typeSubcription) {
@@ -68,7 +68,7 @@ if (tipoSubscripcion == "Gratis") {
     }
 
 // Replica el comportamiento de tu condicional anterior con if, else y else if, pero ahora solo con if (sin else ni else if). 
-// Tu puedes ser capaz de hacer este desafío con arrays u objetos y un solo condicional. 😏
+// Tu puedes ser capaz de hacer este desafío con arrays u objetos y un solo condicional. 😏 ****MALA*****
 
 const Subscripciones = {
     planes: ["Gratis", "Basico", "Experto", "ExpertoPlus"]

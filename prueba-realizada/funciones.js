@@ -5,43 +5,31 @@
 
 /*TU RESPUESTA:
 
-Es un bloque con instrucciones para realizar una tarea o calcular un valor 
+Es un bloque con instrucciones para realizar una tarea o calcular un valor ****BUENA*****
 
 */
 
 
-// 2. ¿Cuales son los tipos de funciones que tenemos? -- Escribe la sintaxis //
-
-/*TU RESPUESTA:
-
-var es una variable que es compatible con la mayoria de los navegadores, se puede cambiar y usar en varios bloques
-let es una variable que se puede cambiar varias veces dentro del mismo bloque 
-const es una variable  que no se puede cambiar y solo se puede usa dentro del mismo bloque 
-
-Var saludo ={}
-let saludo ={}
-Const saludo ={}
-
-
-*/
-
-
-// 2. ¿Cuales son las clases de funciones que tenemos? -- Escribe la sintaxis //
+// 2. ¿Cuales son las clases de funciones que tenemos? -- Escribe la sintaxis  ****BUENA*****
 
 /*TU RESPUESTA:
 
 declaracion es una funcion que utiliza la palabra reservada function y se le asigna un nombre  
 expresion es una funcion dentro de una variable puede ser anonima 
 
-function declarativa(){}
+function declarativa(){
 
-let unaFuncion = espresiva(){}
+}
+
+let unaFuncion = espresiva(){
+
+}
 
 
 */
 
 
-// 3. ¿Cuándo me sirve usar una función en mi código? //
+// 3. ¿Cuándo me sirve usar una función en mi código?  ****BUENA*****
 
 /*TU RESPUESTA:
 
@@ -51,7 +39,7 @@ cuando nesecito realizar varias tareas o calcular valores en un mismo codigo o e
 
 
 
-// 4. ¿Cuál es la diferencia entre parámetros y argumentos de una función? //
+// 4. ¿Cuál es la diferencia entre parámetros y argumentos de una función?  ****BUENA*****
 
 /*TU RESPUESTA:
 
@@ -67,14 +55,14 @@ argumentosSintaxis --- informacionUsuario("Rafael","Perez");
 
 
 // ------------------------ PARTE # 2 ---------------------------------- //
-//Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función: //
+//Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:   ****MALA*****
 
-let name = "Jairo";
-let lastname = "Colón";
-let nickname = "Jey Colón";
-let completeName = name + lastname;
+// let name = "Jairo";
+// let lastname = "Colón";
+// let nickname = "Jey Colón";
+// let completeName = name + lastname;
 
-console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + nickname + ".");
+// console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + nickname + ".");
 
 function informacionUsuario(name,lastname,nickname){
      let completeName = name + lastname;

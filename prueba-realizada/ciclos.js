@@ -1,7 +1,7 @@
 // ------------------------ PARTE # 1 ---------------------------------- //
 // Responde las siguientes preguntas a continuación:
 
-// 1. ¿Qué es un ciclo? //
+// 1. ¿Qué es un ciclo?  ****BUENA*****
 
 /*TU RESPUESTA:
 
@@ -11,7 +11,7 @@
 
 
 
-// 2. ¿Qué tipos de ciclos conoces en JavaScript? //
+// 2. ¿Qué tipos de ciclos conoces en JavaScript? ****BUENA*****
 
 /*TU RESPUESTA:
 
@@ -21,7 +21,7 @@ for
 
 
 
-// 3. ¿Qué es un ciclo infinito y por qué es un problema? //
+// 3. ¿Qué es un ciclo infinito y por qué es un problema? ****BUENA*****
 
 /*TU RESPUESTA:
 
@@ -31,7 +31,7 @@ un ciclo infinito es un ciclo que no para hasta no encontrar una respuesta o res
 
 
 
-// 4. ¿Puedo mezclar ciclos y condicionales? //
+// 4. ¿Puedo mezclar ciclos y condicionales? ****BUENA*****
 
 /*TU RESPUESTA:
 
@@ -42,7 +42,7 @@ si
 
 
 
-// 5. Escribe la sintaxis de un ciclo for //
+// 5. Escribe la sintaxis de un ciclo for ****MALA*****
 
 /*TU RESPUESTA:
 
@@ -54,7 +54,7 @@ for ( i = 0; i <= Objeto ; i++ ){}
 
 // ------------------------ PARTE # 2 ---------------------------------- //
 
-// Escribe un código en JavaScript que le pregunte a los usuarios cuánto es 10 + 10. Si responden bien, mostramos un mensaje de felicitaciones, pero si responden mal, muestras un mensaje de incorrecto vuelve a intentarlo.//
+// Escribe un código en JavaScript que le pregunte a los usuarios cuánto es 10 + 10. Si responden bien, mostramos un mensaje de felicitaciones, pero si responden mal, muestras un mensaje de incorrecto vuelve a intentarlo. ****MALA*****
 
 // TU RESPUESTA:
 
